@@ -9,7 +9,7 @@ metadata:
 spec:
   selector: 
     app: machineinfo
-  type: LoadBalancer  # use LoadBalancer as type here
+  type: NodePort  # use LoadBalancer as type here
   ports:
     - nodePort: 31000
       Port: 9000
