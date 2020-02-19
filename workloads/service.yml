@@ -8,9 +8,9 @@ metadata:
   
 spec:
   selector: 
-	app: machineinfo
+    app: machineinfo
   type: NodePort  # use LoadBalancer as type here
   ports:
     - nodePort: 31000
-	  port: 9000
-	  targetPort: 9000
+      port: 9000
+      targetPort: 9000
