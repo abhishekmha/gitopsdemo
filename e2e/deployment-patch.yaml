@@ -1,0 +1,9 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: machineinfo
+spec:
+  template:
+    spec:
+      containers:
+      - name: machineinfo
